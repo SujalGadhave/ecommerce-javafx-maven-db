@@ -11,7 +11,7 @@ public class UserMain {
 	public void addUser() throws IOException {
 		
 		Stage stage = new Stage();
-		stage.setTitle("Add product");
+		stage.setTitle("Add User");
 		
 		Parent actorGroup = FXMLLoader.load(getClass().getResource("/user/addUser.fxml"));
 		
