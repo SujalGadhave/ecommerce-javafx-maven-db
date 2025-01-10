@@ -32,7 +32,7 @@ public class RemoveUserController extends SqlData{
 		if((removeUser.getText() != null)) {
 			
 			errorMessage.setTextFill(Color.GREEN);
-			errorMessage.setText("Product removed...");
+			errorMessage.setText("User removed...");
 			
 		}else {
 			
