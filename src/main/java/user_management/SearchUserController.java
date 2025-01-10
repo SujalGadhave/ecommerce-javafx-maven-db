@@ -34,7 +34,7 @@ public class SearchUserController extends SqlData {
 			errorMessage.setText(searchUser.getText());
 		}else {
 			errorMessage.setTextFill(Color.RED);
-			errorMessage.setText("Product not found...");
+			errorMessage.setText("User not found...");
 		}
 		
 	}
