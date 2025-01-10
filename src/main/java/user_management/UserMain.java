@@ -24,7 +24,7 @@ public class UserMain {
 	public void searchUser() throws IOException {
 		
 		Stage stage = new Stage();
-		stage.setTitle("Add product");
+		stage.setTitle("Search User");
 		
 		Parent actorGroup = FXMLLoader.load(getClass().getResource("/user/searchUser.fxml"));
 		
@@ -38,7 +38,7 @@ public class UserMain {
 	public void removeUser() throws IOException {
 		
 		Stage stage = new Stage();
-		stage.setTitle("Add product");
+		stage.setTitle("Remove User");
 		
 		Parent actorGroup = FXMLLoader.load(getClass().getResource("/user/removeUser.fxml"));
 		
