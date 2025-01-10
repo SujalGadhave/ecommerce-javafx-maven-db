@@ -25,7 +25,7 @@ public class ProductMain {
 	public void searchProduct() throws IOException {
 		
 		Stage stage = new Stage();
-		stage.setTitle("Add product");
+		stage.setTitle("Search product");
 		
 		Parent actorGroup = FXMLLoader.load(getClass().getResource("/product/searchProduct.fxml"));
 		
@@ -39,7 +39,7 @@ public class ProductMain {
 	public void removeProduct() throws IOException {
 		
 		Stage stage = new Stage();
-		stage.setTitle("Add product");
+		stage.setTitle("Remove product");
 		
 		Parent actorGroup = FXMLLoader.load(getClass().getResource("/product/removeProduct.fxml"));
 		
