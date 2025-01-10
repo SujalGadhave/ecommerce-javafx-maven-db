@@ -42,7 +42,7 @@ public class AddUserController extends SqlData {
 		if((userId.getText() != null && userName.getText() != null) && (emailId.getText() != null && password.getText() != null)) {
 			
 			errorMessage.setTextFill(Color.GREEN);
-			errorMessage.setText("Product added successfully...");
+			errorMessage.setText("User added successfully...");
 			
 		}else {
 			
